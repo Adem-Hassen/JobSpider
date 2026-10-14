@@ -1,0 +1,73 @@
+{
+  "recorded_at": null,
+  "note": "hand-built in the documented format; no API key was available",
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+    "count": 2,
+    "mean": 45000,
+    "results": [
+      {
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "id": "4900112233",
+        "adref": "eyJhbGciOiJIUzI1NiJ9",
+        "title": "Développeur <strong>Python</strong> Junior H/F",
+        "description": "Nous recherchons un développeur Python junior pour construire des API REST avec Django…",
+        "created": "2026-10-12T08:15:00Z",
+        "redirect_url": "https://www.adzuna.fr/land/ad/4900112233?se=abc&utm_medium=api&utm_source=12345&v=DEF",
+        "company": {
+          "__CLASS__": "Adzuna::API::Response::Company",
+          "display_name": "Logistico SAS"
+        },
+        "location": {
+          "__CLASS__": "Adzuna::API::Response::Location",
+          "display_name": "Lyon, Rhône",
+          "area": [
+            "France",
+            "Auvergne-Rhône-Alpes",
+            "Rhône",
+            "Lyon"
+          ]
+        },
+        "category": {
+          "__CLASS__": "Adzuna::API::Response::Category",
+          "label": "Emplois Informatique",
+          "tag": "it-jobs"
+        },
+        "contract_type": "permanent",
+        "contract_time": "full_time",
+        "salary_min": 38000,
+        "salary_max": 42000,
+        "salary_is_predicted": "0",
+        "latitude": 45.76,
+        "longitude": 4.84
+      },
+      {
+        "__CLASS__": "Adzuna::API::Response::Job",
+        "id": "4900445566",
+        "title": "Stage - Data Engineer",
+        "description": "Stage de 6 mois…",
+        "created": "2026-10-10T14:00:00Z",
+        "redirect_url": "https://www.adzuna.fr/land/ad/4900445566?se=xyz",
+        "company": {
+          "display_name": "DataCo"
+        },
+        "location": {
+          "display_name": "Paris",
+          "area": [
+            "France",
+            "Ile-de-France",
+            "Paris"
+          ]
+        },
+        "category": {
+          "label": "Emplois Informatique",
+          "tag": "it-jobs"
+        },
+        "contract_type": "contract"
+      }
+    ]
+  }
+}

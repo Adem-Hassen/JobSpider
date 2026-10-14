@@ -1,0 +1,26 @@
+Amira Ben Salah
+Junior Backend Developer
+Email: amira.bensalah@example.com | Phone: +216 98 765 432
+Address: 12 Avenue Habib Bourguiba, 1000 Tunis
+LinkedIn: linkedin.com/in/amira-example
+
+EDUCATION
+2021 - 2026  Engineering degree in Software Engineering, INSAT, Tunis
+
+EXPERIENCE
+06/2025 - 09/2025  Backend intern, RetailCo IT department
+- Built REST APIs with FastAPI for an inventory app serving 1,200 users
+- Analysed sales data with pandas; reduced report time by 40%
+- Communicated via Slack with 5 teams; deployed with Docker on PostgreSQL 16.2
+
+PROJECTS
+Led a 4-person student project: Django marketplace (Python 3.12, JavaScript)
+
+SKILLS
+Python, SQL, JavaScript, FastAPI, Django, Docker, Git, pandas, PostgreSQL
+
+CERTIFICATIONS
+AWS Certified Cloud Practitioner (2025)
+
+LANGUAGES
+Arabic (native), French (C1), English (B2)

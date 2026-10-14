@@ -1,0 +1,44 @@
+# jobfinder behaviour settings. Secrets never go here; see .env.example.
+
+# ISO-3166 alpha-2 codes of countries where you can work on site.
+target_countries: [TN, FR, DE]
+
+# remote_only | remote_first | any | onsite_only
+remote_preference: any
+
+# Any of: full_time, part_time, contract, internship, apprenticeship, temporary
+employment_types: [full_time, internship]
+
+# Ignore postings older than this (days since publication).
+max_age_days: 7
+
+# Keyword score (0-100) below which a job is stored as "filtered" without an AI call.
+prefilter_threshold: 35
+
+# AI relevance score (0-100) at or above which a Telegram alert is sent.
+notify_threshold: 80
+
+# AI spend caps in USD. Over budget, jobs wait as "pending_ai" until the next day.
+ai_daily_budget_usd: 1.00
+ai_monthly_budget_usd: 20.00
+
+# DEBUG | INFO | WARNING | ERROR
+log_level: INFO
+
+# Which jobs the Opportunities sheet shows (and `jobfinder export` exports): any of
+# strong, possible, reject, pending_ai, ai_error, filtered. Every other job is kept on a
+# hidden "Other jobs" sheet, so it is not fetched, scored or notified twice. Jobs you
+# wrote an application_status or notes on stay visible even after they expire.
+workbook_decisions: [strong]
+
+# Jobs located outside target_countries (or remote but restricted to other countries)
+# are dropped before storage. Set to true to keep them in the workbook as "filtered".
+store_other_countries: false
+
+# Apply-link resolution and liveness checks. Requests go to employer and ATS pages
+# (never to LinkedIn, Indeed, Glassdoor or aggregators) and respect robots.txt.
+links:
+  daily_request_cap: 200          # all link requests per UTC day
+  requests_per_minute: 6          # per host
+  max_resolutions_per_run: 30     # apply links resolved per run
+  max_liveness_checks_per_run: 20 # postings re-checked per run (each at most weekly)

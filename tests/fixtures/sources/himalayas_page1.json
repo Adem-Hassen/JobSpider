@@ -1,0 +1,154 @@
+{
+  "recorded_at": "2026-10-14T15:45:00Z",
+  "headers": {
+    "content-type": "application/json",
+    "last-modified": "Wed, 14 Oct 2026 14:40:39 GMT"
+  },
+  "body": {
+    "comments": "21/08/2026: Cursor pagination is now available and is the preferred way to page through the feed. Pass the nextCursor value from each response back as ?cursor=. It is faster than offset and will never return the same job twice. The offset parameter is deprecated and will be removed in a future release. 13/03/2026: The API has been updated to include the companySlug field in the response.",
+    "updatedAt": 1791988320,
+    "offset": 0,
+    "limit": 3,
+    "totalCount": 124426,
+    "nextCursor": "MjAyNi0xMC0xNFQxNDoyNzo0Ni41OTIxMDVafDIzNDczMjQ",
+    "jobs": [
+      {
+        "title": "Analytic Consultant I",
+        "excerpt": "FICO (NYSE: FICO)is a leading global analytics software company, helping businesses in 100+ countries make better decisions.",
+        "companyName": "FICO",
+        "companySlug": "fico",
+        "companyLogo": "https://cdn-images.himalayas.app/252i60pyneejg6lkma3ew2gkej3z",
+        "employmentType": "Full Time",
+        "minSalary": 88000,
+        "maxSalary": 121000,
+        "salaryPeriod": "annual",
+        "seniority": [
+          "Entry-level"
+        ],
+        "currency": "USD",
+        "locationRestrictions": [
+          "United States"
+        ],
+        "timezoneRestrictions": [
+          -10,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          14
+        ],
+        "categories": [
+          "Analytics-Consultant",
+          "Data-Analyst",
+          "Data-Scientist",
+          "Statistical-Analyst",
+          "Business-Analyst",
+          "Analytic-Consultant",
+          "Consulting-Analyst",
+          "Analytics-Analyst",
+          "Analytic-Consulting",
+          "Associate-Analyst"
+        ],
+        "parentCategories": [
+          "Data Science"
+        ],
+        "description": "<p><b><a href=\"https://himalayas.app/companies/fico\">FICO</a> (NYSE: <a href=\"https://himalayas.app/companies/fico\">FICO</a>)</b>is a leading global analytics software company, helping businesses in 100+ countries make better decisions. Join our world-class team today and fulfill your career potential!</p><p><b>The Opportunity</b><br><br>As part of a team, you will participate in designing, developing, and deploying state-of-the-art, data-driven predictive models to solve business problems using the latest technologies in data mining, statistical modeling, pattern recognition, and performance inference. This is a unique opportunity to contribute to <a href=\"https://himalayas.app/companies/fico\">FICO</a> Scores International, where you will learn and apply flagship <a href=\"https://himalayas.app/companies/fico\">FICO</a>® Score expertise to global markets, collaborate with clients across regions, explore diverse data sources, work with large-scale datasets, and build models that drive real-world impact.</p><h3>What You’ll Contribute</h3><br><ul>\n<li>Contribute to international <a href=\"https://himalayas.app/companies/fico\">FICO</a> Scores projects through client data analysis, model development, model validation, and delivery activities. </li>\n<li>Design, develop, and evaluate state-of-the-art, data-driven exploratory analyses, predictive models, and decision models to solve business problems across the financial services industry. </li>\n<li>Analyze large-scale consumer credit ",
+        "pubDate": 1791988320,
+        "expiryDate": 1797172319,
+        "applicationLink": "https://himalayas.app/companies/fico/jobs/analytic-consultant-i",
+        "guid": "https://himalayas.app/companies/fico/jobs/analytic-consultant-i"
+      },
+      {
+        "title": "Student Intern, Administration and Communications",
+        "excerpt": "Student Intern, Administration & Communications, California Education Learning Lab100% Remote within California, Must reside in California Join an equity-focused, collaborative team seeking to foster innovation in college teaching and learning practices through competitive grant-making, in Science, Technology, Engineering, or Math (STEM) and other disciplines.",
+        "companyName": "Foundation for California Community Colleges",
+        "companySlug": "foundation-for-california-community-colleges",
+        "companyLogo": "https://cdn-images.himalayas.app/ssejpoca80irqwk57ym0yh6mc8bx",
+        "employmentType": "Part Time",
+        "minSalary": 18,
+        "maxSalary": 18,
+        "salaryPeriod": "hourly",
+        "seniority": [
+          "Entry-level"
+        ],
+        "currency": "USD",
+        "locationRestrictions": [
+          "United States"
+        ],
+        "timezoneRestrictions": [
+          -10,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          14
+        ],
+        "categories": [
+          "Administrative-Intern",
+          "Communications-Intern",
+          "Marketing-Intern",
+          "Student-Intern",
+          "Communications-Assistant",
+          "Administrative-Support-Intern",
+          "Administrative-Internship",
+          "Entry-Level-Administration-Intern",
+          "Communication-Internship"
+        ],
+        "parentCategories": [
+          "Marketing"
+        ],
+        "description": "<h3>Student Intern, Administration &amp; Communications, California Education Learning Lab</h3><h3>100% Remote within California, Must reside in California</h3><br><p>Join an equity-focused, collaborative team seeking to foster innovation in college teaching and learning practices through competitive grant-making, in Science, Technology, Engineering, or Math (STEM) and other disciplines. </p><p>The California Education Learning Lab (Learning Lab) is a state-funded grantmaking program charged with improving learning outcomes and closing equity gaps across California’s public higher education. Learning Lab supports innovation in higher education pedagogy through intersegmental grants to California’s public colleges and universities. Funded projects leverage technology tools and the science of human learning to create better online and hybrid learning environments and empower faculty in their teaching mission to find solutions that work best for California’s diverse student population.</p><br><h3>What You’ll Do</h3><br><p>The Student Intern is a part-time, paid position that will support a dynamic team to help develop education-focused communications, such as promotional materials and social media content, that is mission- and brand-aligned, and to handle general administrative tasks. Depending on the interests and skills of the successful candidate, this position may provide opportunities for unique writing, media research, website, and/or AI/technology-related projects.</p><br",
+        "pubDate": 1791988199,
+        "expiryDate": 1797172198,
+        "applicationLink": "https://himalayas.app/companies/foundation-for-california-community-colleges/jobs/student-intern-administration-and-communications",
+        "guid": "https://himalayas.app/companies/foundation-for-california-community-colleges/jobs/student-intern-administration-and-communications"
+      },
+      {
+        "title": "Remote  Business Financial Systems Cloud FinOps",
+        "excerpt": "Remote Business Financial Systems Cloud FinOps needs experience in financial systems, budgeting, forecasting, and financial analysis.",
+        "companyName": "Global Channel Management, Inc.",
+        "companySlug": "global-channel-management-inc",
+        "companyLogo": "",
+        "employmentType": "Full Time",
+        "minSalary": null,
+        "maxSalary": null,
+        "salaryPeriod": "annual",
+        "seniority": [
+          "Mid-level"
+        ],
+        "currency": "USD",
+        "locationRestrictions": [
+          "United States"
+        ],
+        "timezoneRestrictions": [
+          -10,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          14
+        ],
+        "categories": [
+          "FinOps-Analyst",
+          "Cloud-FinOps-Analyst",
+          "Cloud-Cost-Analyst",
+          "Financial-Analyst",
+          "Cloud-Financial-Operations",
+          "Cloud-Financial-Management",
+          "Cloud-FinOps"
+        ],
+        "parentCategories": [
+          "Finance"
+        ],
+        "description": "<p>Remote  Business Financial Systems Cloud FinOps needs experience in financial systems, budgeting, forecasting, and financial analysis. </p><p>Remote  Business Financial Systems Cloud FinOps requires:</p><h3>Experience with process improvement. </h3><p>Experience with cloud financial operations (FinOps) and cloud cost management</p><p>Proficient in Microsoft Access, Excel, Word, and PowerPoint. </p><p>Strong database reporting skills utilizing Access, Cognos, and data warehouse tools</p><p>Strong analytical, technical, and decision-making skills. </p><p>Project management skills and ability to manage multiple projects and priorities. </p><p>Proficiency in cloud financial management tools and practices.</p><p>Remote  Business Financial Systems Cloud FinOps duties:</p><p>Provide analytical support for various systems configurations and financial processes.</p><p> Develop and implement Cloud FinOps processes to optimize cloud costs and improve financial efficiency.</p><p> Build and maintain effective working relationships with internal and external business partners.</p><p>Perform root cause analysis through research and data analysis to determine efficient and customer-valued solutions. </p><p>Design, track, and provide solutions to management for various processes reporting, including productivity, quality, and systems.</p><p>Originally posted on <a href=\"https://himalayas.app\">Himalayas</a></p>",
+        "pubDate": 1791988190,
+        "expiryDate": 1797172188,
+        "applicationLink": "https://himalayas.app/companies/global-channel-management-inc/jobs/remote-business-financial-systems-cloud-finops",
+        "guid": "https://himalayas.app/companies/global-channel-management-inc/jobs/remote-business-financial-systems-cloud-finops"
+      }
+    ]
+  }
+}

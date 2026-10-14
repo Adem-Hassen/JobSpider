@@ -1,0 +1,69 @@
+[project]
+name = "jobfinder"
+version = "0.1.0"
+description = "Personal, AI-assisted job and internship discovery service"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "feedparser>=6.0.14",
+    "httpx>=0.28.1",
+    "openai>=3.29.0",
+    "openpyxl>=3.1.5",
+    "pdfplumber>=0.11.10",
+    "pydantic>=2.14.1",
+    "pydantic-settings>=2.15.0",
+    "python-docx>=1.2.0",
+    "pyyaml>=6.0.3",
+    "rapidfuzz>=3.14.6",
+    "sqlalchemy>=2.1.4",
+    "structlog>=26.1.0",
+    "tenacity>=9.2.1",
+    "typer>=0.27.3",
+]
+
+[project.scripts]
+jobfinder = "jobfinder.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.13,<0.14"]
+build-backend = "uv_build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "A", "C4", "DTZ", "SIM", "RUF", "PTH", "S", "TRY", "ASYNC"]
+ignore = ["TRY003"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "S105", "S106"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+files = ["src"]
+plugins = ["pydantic.mypy"]
+
+[[tool.mypy.overrides]]
+# openpyxl ships no type information; types-openpyxl could replace this override.
+module = ["openpyxl", "openpyxl.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+addopts = "-ra --strict-markers"
+
+[dependency-groups]
+dev = [
+    "freezegun>=1.5.5",
+    "mypy>=2.4.0",
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+    "respx>=0.23.1",
+    "ruff>=0.17.0",
+    "types-pyyaml>=6.0.12.20260906",
+]

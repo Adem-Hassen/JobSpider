@@ -1,0 +1,13 @@
+{
+  "recorded_at": null,
+  "note": "hand-built in the documented format; no API key was available",
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "scope": "api_offresdemploiv2 o2dsoffre",
+    "expires_in": 1499,
+    "token_type": "Bearer",
+    "access_token": "ft-test-token-123"
+  }
+}

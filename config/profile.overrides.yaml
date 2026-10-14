@@ -1,0 +1,36 @@
+# Values here replace the AI-extracted profile field by field (overrides win).
+# A list given here replaces the extracted list entirely; it is not appended.
+# Changing this file and re-running `jobfinder profile import` creates a new
+# profile version without another AI call when the CV is unchanged.
+#
+# Fields: skills, tools, programming_languages, spoken_languages, education,
+# certifications, years_experience, seniority (intern|junior|mid|senior|lead),
+# target_titles, alternative_titles, synonym_groups, include_keywords,
+# exclude_keywords.
+
+# Title and skill variants in English, French and German, so postings in France and
+# Germany match your target titles. Each group lists interchangeable terms.
+synonym_groups:
+  - [System Administrator, SysAdmin, Administrateur Système, Administrateur systèmes,
+     Administrateur systèmes et réseaux, Administrateur informatique,
+     Systemadministrator, IT-Administrator, IT Administrator, IT-Systemadministrator]
+  - [Linux Administrator, Linux-Administrator, Administrateur Linux, Linux Engineer,
+     Linux Systemadministrator, Ingénieur Linux]
+  - [DevOps Engineer, DevOps, DevOps-Engineer, Ingénieur DevOps, DevOps Ingenieur]
+  - [IT Support Engineer, IT Support, IT-Support, Support informatique,
+     Technicien support, Technicien informatique, IT-Supporter, IT Supporter,
+     Helpdesk, Service Desk, First Level Support, Second Level Support]
+  - [Site Reliability Engineer, SRE, Reliability Engineer, Ingénieur fiabilité]
+  - [Infrastructure Engineer, Ingénieur infrastructure, Ingénieur systèmes,
+     Systems Engineer, Systemingenieur, Infrastructure Engineer]
+  - [Operations Engineer, Ingénieur d'exploitation, Ingénieur de production,
+     IT Operations Engineer, Betriebsingenieur]
+  - [Platform Engineer, Ingénieur plateforme, Plattform Engineer]
+  - [Technical Support Engineer, Support technique, Ingénieur support,
+     Technischer Support, Technical Support]
+  - [Cloud Engineer, Ingénieur Cloud, Cloud-Engineer, Cloud Ingenieur]
+  - [PostgreSQL, Postgres]
+  - [Linux, Linux OS]
+  - [Docker, Docker Engine]
+  - [System Administration, administration système, Systemadministration,
+     Systemverwaltung]

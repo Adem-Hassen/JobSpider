@@ -1,0 +1,62 @@
+{
+  "recorded_at": null,
+  "note": "hand-built in the documented format; no API key was available",
+  "headers": {
+    "content-type": "application/json",
+    "content-range": "offres 0-1/2"
+  },
+  "body": {
+    "resultats": [
+      {
+        "id": "201ABCD",
+        "intitule": "Développeur Python (H/F)",
+        "description": "Vous développez des API en Python et Django. Expérience : 1 an.",
+        "dateCreation": "2026-10-13T09:12:44.000Z",
+        "dateActualisation": "2026-10-13T09:12:45.000Z",
+        "lieuTravail": {
+          "libelle": "75 - Paris 8e Arrondissement",
+          "latitude": 48.87,
+          "longitude": 2.31,
+          "codePostal": "75008",
+          "commune": "75108"
+        },
+        "romeCode": "M1805",
+        "romeLibelle": "Développeur / Développeuse informatique",
+        "entreprise": {
+          "nom": "LOGISTICO",
+          "entrepriseAdaptee": false
+        },
+        "typeContrat": "CDI",
+        "typeContratLibelle": "Contrat à durée indéterminée",
+        "natureContrat": "Contrat travail",
+        "experienceExige": "D",
+        "experienceLibelle": "Débutant accepté",
+        "alternance": false,
+        "contact": {
+          "urlPostulation": "https://jobs.logistico.fr/postuler/201ABCD"
+        },
+        "origineOffre": {
+          "origine": "1",
+          "urlOrigine": "https://candidat.francetravail.fr/offres/recherche/detail/201ABCD"
+        }
+      },
+      {
+        "id": "201EFGH",
+        "intitule": "Alternance - Développeur web",
+        "description": "Contrat d'apprentissage de 24 mois.",
+        "dateCreation": "2026-10-12T10:00:00.000Z",
+        "lieuTravail": {
+          "libelle": "69 - LYON 03",
+          "codePostal": "69003"
+        },
+        "typeContrat": "CDD",
+        "natureContrat": "Contrat apprentissage",
+        "alternance": true,
+        "origineOffre": {
+          "origine": "1"
+        }
+      }
+    ],
+    "filtresPossibles": []
+  }
+}

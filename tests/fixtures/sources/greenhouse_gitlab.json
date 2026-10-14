@@ -1,0 +1,168 @@
+{
+  "recorded_at": "2026-10-13T15:45:00Z",
+  "headers": {
+    "content-type": "application/json",
+    "etag": "W/\"700d355bd2233a656dc105334abdff2d\""
+  },
+  "body": {
+    "jobs": [
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/gitlab/jobs/8860302002",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 6547054002,
+        "location": {
+          "name": "Remote, France"
+        },
+        "metadata": [
+          {
+            "id": 4595831002,
+            "name": "Quota Coverage Type",
+            "value": "Account Executive",
+            "value_type": "single_select"
+          }
+        ],
+        "id": 8860302002,
+        "updated_at": "2026-10-02T11:31:50-04:00",
+        "requisition_id": "7109",
+        "title": "Account Executive - France",
+        "company_name": "GitLab",
+        "first_published": "2026-10-02T11:31:50-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt;*&lt;em&gt;Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and d",
+        "departments": [
+          {
+            "id": 4096748002,
+            "name": "EMEA - Commercial",
+            "child_ids": [],
+            "parent_id": 4096735002
+          }
+        ],
+        "offices": [
+          {
+            "id": 4042500002,
+            "name": "France",
+            "location": "France",
+            "child_ids": [],
+            "parent_id": 4019553002
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/gitlab/jobs/8532274002",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 6407486002,
+        "location": {
+          "name": "Remote, EMEA; Remote, France; Remote, Germany; Remote, Ireland; Remote, Netherlands; Remote, United Kingdom"
+        },
+        "metadata": [
+          {
+            "id": 4595831002,
+            "name": "Quota Coverage Type",
+            "value": "N/A",
+            "value_type": "single_select"
+          }
+        ],
+        "id": 8532274002,
+        "updated_at": "2026-09-29T10:38:50-04:00",
+        "requisition_id": "6347",
+        "title": "Business Development Representative ",
+        "company_name": "GitLab",
+        "first_published": "2026-05-01T11:28:37-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt;*&lt;em&gt;Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and d",
+        "departments": [
+          {
+            "id": 4011059002,
+            "name": "Sales Development",
+            "child_ids": [],
+            "parent_id": 4011049002
+          }
+        ],
+        "offices": [],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": null
+      },
+      {
+        "absolute_url": "https://job-boards.greenhouse.io/gitlab/jobs/8864819002",
+        "data_compliance": [
+          {
+            "type": "gdpr",
+            "requires_consent": false,
+            "requires_processing_consent": false,
+            "requires_retention_consent": false,
+            "retention_period": null,
+            "demographic_data_consent_applies": false
+          }
+        ],
+        "internal_job_id": 6549033002,
+        "location": {
+          "name": "Bangalore, India"
+        },
+        "metadata": [
+          {
+            "id": 4595831002,
+            "name": "Quota Coverage Type",
+            "value": "n/a",
+            "value_type": "single_select"
+          }
+        ],
+        "id": 8864819002,
+        "updated_at": "2026-10-09T11:09:56-04:00",
+        "requisition_id": "7121",
+        "title": "Benefits Analyst",
+        "company_name": "GitLab",
+        "first_published": "2026-10-09T11:09:56-04:00",
+        "language": "en",
+        "application_deadline": null,
+        "content": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster.&lt;/p&gt;\n&lt;p&gt;The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&amp;nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. &lt;a href=&quot;https://www.youtube.com/watch?v=OuZIb5zszQI&quot;&gt;Co-create the future with us&lt;/a&gt; as we build technology that transforms how the world develops software.&lt;/p&gt;\n&lt;p&gt;*&lt;em&gt;Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and d",
+        "departments": [
+          {
+            "id": 4070223002,
+            "name": "Total Rewards",
+            "child_ids": [],
+            "parent_id": 4111246002
+          }
+        ],
+        "offices": [
+          {
+            "id": 4112140002,
+            "name": "India",
+            "location": null,
+            "child_ids": [],
+            "parent_id": 4019590002
+          }
+        ],
+        "ai_disclaimer": null,
+        "include_ai_disclaimer": null,
+        "ai_opt_out_request_url": null
+      }
+    ],
+    "meta": {
+      "total": 3
+    }
+  }
+}

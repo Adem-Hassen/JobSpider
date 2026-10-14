@@ -1,0 +1,39 @@
+# Installed by deploy/install.sh. Started by OnFailure= when jobfinder.service fails;
+# sends a Telegram alert with the last run's summary.
+[Unit]
+Description=jobfinder: alert about a failed run
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=jobfinder
+Group=jobfinder
+EnvironmentFile=/etc/jobfinder/jobfinder.env
+WorkingDirectory=/var/lib/jobfinder
+ExecStart=/opt/jobfinder/current/.venv/bin/jobfinder notify --failure
+# A oneshot's whole run is its start-up: RuntimeMaxSec= does not apply to
+# Type=oneshot (systemd.service(5)), TimeoutStartSec= is what limits it.
+TimeoutStartSec=2min
+MemoryMax=256M
+
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ReadWritePaths=/var/lib/jobfinder
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectKernelLogs=yes
+ProtectControlGroups=yes
+ProtectClock=yes
+ProtectHostname=yes
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+RestrictNamespaces=yes
+RestrictRealtime=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes
+CapabilityBoundingSet=
+SystemCallArchitectures=native
+UMask=0077

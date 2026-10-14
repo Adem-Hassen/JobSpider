@@ -1,0 +1,108 @@
+{
+  "recorded_at": "2026-10-14T15:45:00Z",
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "last_updated": 1791989061,
+      "legal": "API Terms of Service: Please link back (with follow, and without nofollow!) to the URL on Remote OK and mention Remote OK as a source, so we get traffic back from your site. If you do not we'll have to suspend API access.\n\nPlease don't use the Remote OK logo without written permission as it's a registered trademark, please DO use our name Remote OK though."
+    },
+    {
+      "slug": "remote-principal-product-manager-strategic-initiatives-thyme-care-1137510",
+      "id": "1137510",
+      "epoch": 1791878411,
+      "date": "2026-10-13T08:00:11+00:00",
+      "company": "Thyme Care",
+      "company_logo": "",
+      "position": "Principal Product Manager Strategic Initiatives",
+      "tags": [
+        "product manager",
+        "exec",
+        "technical",
+        "customer support",
+        "testing",
+        "senior",
+        "ops",
+        "medical",
+        "engineer",
+        "recruiter"
+      ],
+      "description": "<p style=\"min-height:1.5em\"><strong>OUR MISSION</strong></p><p style=\"min-height:1.5em\">We exist to create a more connected, compassionate, and confident experience for people with cancer and those who care for them. We make it easier to get answers, access high-quality care quickly, and feel supported throughout treatment and beyond.</p><p style=\"min-height:1.5em\">Today, Thyme Care is a market-leading value-based oncology care enabler, partnering with national and regional health plans, providers, and employers to deliver better outcomes and lower costs for thousands of people across the country. Our model combines high-touch human support with powerful technology and AI to bring together everyone involved in a person's cancer journey: caregivers, oncologists, health plans, and employers.</p><p style=\"min-height:1.5em\">As a tech-native organization, we believe technology should strengthen the human connection at the center of care. Through data science, automation, and AI, we simplify complexity, improve collaboration, and help our care team focus on what matters most: supporting people through cancer.</p><p style=\"min-height:1.5em\">Looking ahead, our vision is bold: to become a household name in cancer care, where every person diagnosed asks for Thyme Care by name. If you're inspired to make cancer care more human and to help reimagine what's possible, we'd love to meet you. Together, we can build a future where every person with cancer feels truly cared for, in every momen",
+      "location": "Remote",
+      "apply_url": "https://remoteOK.com/remote-jobs/remote-principal-product-manager-strategic-initiatives-thyme-care-1137510",
+      "salary_min": 0,
+      "salary_max": 0,
+      "logo": "",
+      "url": "https://remoteOK.com/remote-jobs/remote-principal-product-manager-strategic-initiatives-thyme-care-1137510"
+    },
+    {
+      "slug": "remote-client-engagement-representative-work-from-home-ao-garcia-agency-1137509",
+      "id": "1137509",
+      "epoch": 1791878404,
+      "date": "2026-10-13T08:00:04+00:00",
+      "company": "AO Garcia Agency",
+      "company_logo": "",
+      "position": "Client Engagement Representative Work From Home",
+      "tags": [
+        "work from home",
+        "sys admin",
+        "education",
+        "exec",
+        "finance"
+      ],
+      "description": "<p>This is a remote financial-services seat built around warm leads and a training system.</p><p>If you are competitive and willing to be coached, it can become a long-term career. If you want a job with no conversations, it will not.</p><p><br></p><p>Daily work</p><p>â¢ Speak with people who asked for information</p><p>â¢ Map needs to available protection options</p><p>â¢ Run a simple enrollment flow</p><p>â¢ Build and service a client list</p><p><br></p><p>Provided</p><p>â¢ Pre-qualified warm leads</p><p>â¢ Step-by-step onboarding</p><p>â¢ Remote tools</p><p>â¢ Flexible hours</p><p>â¢ Ongoing mentorship</p><p><br></p><p>Good fit</p><p>Self-starters who like helping families and can handle a performance environment.</p><p><br></p><p>Bad fit</p><p>Anyone who will not take feedback or needs a manager in the room.</p><p>Next step is a short Zoom overview. Apply to book it.</p>\\n<p></p><p><br></p><p></p>\\n<br/><br/>Please mention the word **VALIANT** and tag RMTAyLjIxMS4yMTAuMjE4 when applying to show you read the job post completely (#RMTAyLjIxMS4yMTAuMjE4). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "location": "Sterling Heights, Michigan",
+      "apply_url": "https://remoteOK.com/remote-jobs/remote-client-engagement-representative-work-from-home-ao-garcia-agency-1137509",
+      "salary_min": 0,
+      "salary_max": 0,
+      "logo": "",
+      "url": "https://remoteOK.com/remote-jobs/remote-client-engagement-representative-work-from-home-ao-garcia-agency-1137509"
+    },
+    {
+      "slug": "remote-principal-software-engineer-vytalize-health-1137508",
+      "id": "1137508",
+      "epoch": 1791849618,
+      "date": "2026-10-13T00:00:18+00:00",
+      "company": "Vytalize Health",
+      "company_logo": "",
+      "position": "Principal Software Engineer",
+      "tags": [
+        "dev",
+        "design",
+        "infosec",
+        "python",
+        "docker",
+        "technical",
+        "recruiter",
+        "customer support",
+        "testing",
+        "marketing",
+        "quality assurance",
+        "finance",
+        "java",
+        "c",
+        "cloud",
+        "api",
+        "exec",
+        "content writing",
+        "senior",
+        "ops",
+        "stats",
+        "sys admin",
+        "golang",
+        "medical",
+        "engineer",
+        "backend",
+        "digital nomad"
+      ],
+      "description": "<p style=\"min-height:1.5em\"><strong>Your Opportunity</strong></p><p style=\"min-height:1.5em\">As a <strong>Principal Engineer</strong>, you will help design, build, and operate the clinical decision support and API-driven data delivery platform that enables Vytalize Health to embed timely, actionable clinical insights directly into provider workflows. Working cross-functionally with Data Engineering, Product, Clinical Operations, and EMR partners, your solutions will transform how clinicians access dataâmoving from external tools and workarounds to seamless, in-workflow decision support via CDS Hooks and real-time APIs. <br /> <br />You will own the technical foundation for Clinical Decision Support (CDS) Hooks, REST APIs, and the architectural patterns that ensure clinical data is accessible, trustworthy, and performant at the moment of care. This role sits at the intersection of healthcare interoperability standards, modern API design, and operational excellence. You will establish reliability metrics and SLAs that ensure CDS Hooks and APIs serve clinician workflows with consistent quality and performance. You will be part of a small, high-performing healthcare engineering team where engineers support each other's growth through mentorship and tight collaboration.</p><p style=\"min-height:1.5em\"><strong>Primary Responsibilities</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Lead design and implementation of the CDS Hooks platform, including card or",
+      "location": "Kansas ",
+      "apply_url": "https://remoteOK.com/remote-jobs/remote-principal-software-engineer-vytalize-health-1137508",
+      "salary_min": 0,
+      "salary_max": 0,
+      "logo": "",
+      "url": "https://remoteOK.com/remote-jobs/remote-principal-software-engineer-vytalize-health-1137508"
+    }
+  ]
+}

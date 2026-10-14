@@ -1,0 +1,93 @@
+{
+  "recorded_at": "2026-10-14T15:45:00Z",
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "last-modified": "Wed, 14 Oct 2026 15:42:33 GMT"
+  },
+  "body": {
+    "apiVersion": "2.2.19",
+    "documentationUrl": "https://jobi.cy/apidocs",
+    "friendlyNotice": "Thanks for using Jobicy API! Please ensure Jobicy is clearly credited with a direct link to the source, and all application buttons redirect to the original job URL provided in this feed. That’s all! You might be building something amazing, we wish you the best of luck!",
+    "jobCount": 3,
+    "lastUpdate": "2026-10-14T04:48:39+00:00",
+    "nextCursor": "AgAAAABqz6LpAAAAAGrO6IAAAAAAAAJWS00zVhQkI8JYfGeOL2bNeSwvpjGOV7-iA1vhuPyR3yEviiplP_11cjuf3Iw_scrKuujdKJGyDoauOFe-XcIUp2s",
+    "hasMore": true,
+    "appliedFilters": {
+      "count": 5,
+      "industry": "engineering"
+    },
+    "jobs": [
+      {
+        "id": 155262,
+        "url": "https://jobicy.com/jobs/155262-software-developer-mobile-platform",
+        "jobSlug": "155262-software-developer-mobile-platform",
+        "jobTitle": "Software Developer, Mobile Platform",
+        "companyName": "MaintainX",
+        "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/08/f0177662-221.png",
+        "jobIndustry": [
+          "Software Engineering"
+        ],
+        "jobType": [
+          "Full-Time"
+        ],
+        "jobGeo": "Canada",
+        "jobLevel": "Director",
+        "jobExcerpt": "MaintainX is a leading mobile-first work execution platform for industrial and frontline teams. More than 13,000 customers, including Duracell, McDonald's, Shell, DHL and Volvo, use MaintainX to cut unplanned downtime and run better operations, across 13.9 million managed assets and 79.5 million completed work orders. In August 2026 MaintainX became part of Autodesk, joining Autodesk&hellip;",
+        "jobDescription": "<p><em><strong><a href=\"https://jobicy.com/company/maintainx\" target=\"_blank\" rel=\"noopener\">MaintainX</a> is a leading mobile-first work execution platform </strong>for industrial and frontline teams. <strong>More than 13,000 customers</strong>, including Duracell, McDonald's, Shell, DHL and Volvo, use MaintainX to cut unplanned downtime and run better operations, across 13.9 million managed assets and 79.5 million completed work orders.</em></p>\n<p><em><strong>In August 2026 MaintainX became part of Autodesk, joining </strong></em><a href=\"https://adsknews.autodesk.com/en/views/inside-autodesk-operations-solutions/\" rel=\"nofollow ugc noopener\" target=\"_blank\"><em><strong>Autodesk Operations Solutions</strong></em></a><em><strong>, the organization unifying Autodesk's operations platform alongside Tandem, FlexSim and Fusion Operations. </strong>Autodesk's strategy is to converge design, make and operate into one continuous lifecycle: design an asset, build it, run it, then feed what you learn running it back into the next design. Autodesk had design and make. Operate is the phase that tells you what actually happened, and it is ours.</em></p>\n<p>We're growing fast and hiring the Engineering talent to match.</p>\n<p>You'd be joining our Mobile team within the <strong>Platform Engineering</strong> division. We treat our internal developer platform as a real product, with internal customers (our feature teams, 150+ developers) and adoption metrics.The mission for this role: <str",
+        "pubDate": "2026-10-14T04:48:39+00:00",
+        "salaryMin": 88000,
+        "salaryMax": 125000,
+        "salaryCurrency": "CAD",
+        "salaryPeriod": "yearly"
+      },
+      {
+        "id": 155256,
+        "url": "https://jobicy.com/jobs/155256-solutions-architect-est-or-pst-hours",
+        "jobSlug": "155256-solutions-architect-est-or-pst-hours",
+        "jobTitle": "Solutions Architect (EST or PST hours)",
+        "companyName": "Deepgram",
+        "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2020/12/WRILS-201212160008-406229.jpg",
+        "jobIndustry": [
+          "Software Engineering"
+        ],
+        "jobType": [
+          "Full-Time"
+        ],
+        "jobGeo": "USA",
+        "jobLevel": "Any",
+        "jobExcerpt": "Company Overview Deepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. More than 200,000 developers and 1,300+ organizations build voice offerings that are ‘Powered by Deepgram’, including Twilio, Cloudflare, Sierra, Decagon, Vapi, Daily, Cresta, Granola, and Jack&hellip;",
+        "jobDescription": "<h3><strong>Company Overview</strong></h3>\n<p><a href=\"https://jobicy.com/company/deepgram\" target=\"_blank\" rel=\"noopener\">Deepgram</a> is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. More than 200,000 developers and 1,300+ organizations build voice offerings that are ‘Powered by Deepgram’, including Twilio, Cloudflare, Sierra, Decagon, Vapi, Daily, Cresta, Granola, and Jack in the Box. Deepgram’s voice-native foundation models are accessed through cloud APIs or as self-hosted and on-premises software, with unmatched accuracy, low latency, and cost efficiency. Backed by a recent Series C led by leading global investors and strategic partners, Deepgram has processed over 50,000 years of audio and transcribed more than 1 trillion words. There is no organization in the world that understands voice better than Deepgram.</p>\n\n<h3><strong>Company Operating Rhythm</strong></h3>\n<p>At Deepgram, we expect an AI-first mindset—AI use and comfort aren’t optional, they’re core to how we operate, innovate, and measure performance.</p>\n<p>Every team member who works at Deepgram is expected to actively use and experiment with advanced AI tools, and even build your own into your everyday work. We measure how effectively AI is applied to deliver results, and consistent, creative use of the latest AI capabilities is key to success here",
+        "pubDate": "2026-10-14T04:48:39+00:00",
+        "salaryMin": 155000,
+        "salaryMax": 240000,
+        "salaryCurrency": "USD",
+        "salaryPeriod": "yearly"
+      },
+      {
+        "id": 154873,
+        "url": "https://jobicy.com/jobs/154873-qa-analyst-mexico-remote",
+        "jobSlug": "154873-qa-analyst-mexico-remote",
+        "jobTitle": "QA Analyst (Mexico, Remote)",
+        "companyName": "Varicent",
+        "companyLogo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/c86166a8-221.jpeg",
+        "jobIndustry": [
+          "QA & Testing"
+        ],
+        "jobType": [
+          "Full-Time"
+        ],
+        "jobGeo": "Mexico",
+        "jobLevel": "Senior",
+        "jobExcerpt": "At Varicent, we’re not just transforming the Sales Performance Management (SPM) market—we’re redefining how organizations achieve revenue success. Our cutting-edge SaaS solutions empower revenue leaders globally to design smarter go-to-market strategies, maximize seller performance, and unlock untapped potential. Varicent stands at the forefront of innovation, celebrated as a market leader in the 2025 Forrester Wave&hellip;",
+        "jobDescription": "\n<p>At <a href=\"https://jobicy.com/company/varicent\" target=\"_blank\" rel=\"noopener\">Varicent</a>, we’re not just transforming the Sales Performance Management (SPM) market—we’re redefining how organizations achieve revenue success. Our cutting-edge SaaS solutions empower revenue leaders globally to design smarter go-to-market strategies, maximize seller performance, and unlock untapped potential. Varicent stands at the forefront of innovation, celebrated as a market leader in the <em>2025 Forrester Wave Report for SPM</em>, <em>2023 Ventana Research Revenue Performance Management (RPM) Value Index</em>, <em>Gartner Peer Insights</em>, <em>2024 Gartner SPM Market Guide</em>, and <em>G2. </em>Our solutions are trusted by a diverse range of global industry leaders like T-Mobile, ServiceNow, Wawanesa Bank, Shaw Industries, Moody's, Stryker and hundreds more. Here’s why you’ll thrive at Varicent:</p>\n<ul>\n<li><strong>Innovate with Purpose: Build impactful solutions for customers worldwide.</strong></li>\n<li><strong>Join Excellence: Work in a diverse, collaborative, and innovative team.</strong></li>\n<li><strong>Shape the Future: Lead in redefining revenue optimization.</strong></li>\n<li><strong>Grow Together: Unlock your potential in a supportive environment.</strong></li>\n</ul>\n<p>Join us at Varicent—where your talent and ambition meet limitless opportunities for success!</p>\n<p>As a QA Analyst, you will be supporting the quality, reliability and performance of Varicent's Incenti",
+        "pubDate": "2026-10-14T03:05:05+00:00",
+        "salaryMin": 450900,
+        "salaryMax": 591700,
+        "salaryCurrency": "MXN",
+        "salaryPeriod": "yearly"
+      }
+    ],
+    "statusCode": 200,
+    "success": true
+  }
+}

@@ -1,0 +1,125 @@
+# Job sources. Each entry:
+#   enabled               fetch from this source
+#   min_interval_minutes  minimum time between fetches
+#   daily_request_cap     hard cap on requests per UTC day (retries count)
+#   requests_per_minute   per-host rate limit {host: rpm}; unlisted hosts get 30/min
+#   queries               source-specific search parameters (validated at startup)
+#   options               source-specific settings (validated at startup)
+# Limits from each source's terms are ceilings: configuration may be stricter, never
+# looser (Remotive 4/day and 2/min, Jobicy hourly, Arbeitnow 50/min, Adzuna 25/min,
+# 250/day, 1000/week, 2500/month).
+
+sources:
+  greenhouse:
+    enabled: true
+    min_interval_minutes: 360
+    daily_request_cap: 200
+    requests_per_minute: {boards-api.greenhouse.io: 30}
+  lever:
+    enabled: true
+    min_interval_minutes: 360
+    daily_request_cap: 200
+    requests_per_minute: {api.lever.co: 30, api.eu.lever.co: 30}
+  ashby:
+    enabled: true
+    min_interval_minutes: 360
+    daily_request_cap: 200
+    requests_per_minute: {api.ashbyhq.com: 30}
+
+  # Remotive: each query is one request. Keep the Remotive URL and credit Remotive.
+  remotive:
+    enabled: true
+    min_interval_minutes: 360
+    daily_request_cap: 4
+    requests_per_minute: {remotive.com: 2}
+    # categories: https://remotive.com/api/remote-jobs/categories (e.g. devops,
+    # software-development, information-technology)
+    queries:
+      - {category: devops}
+
+  # Remote OK: one request returns the whole feed. Keep the Remote OK URL and credit it.
+  remoteok:
+    enabled: true
+    min_interval_minutes: 360
+    daily_request_cap: 4
+    requests_per_minute: {remoteok.com: 1}
+
+  # Jobicy: last 7 days of remote jobs, cursor-paged. Hourly at most; credit Jobicy.
+  # queries: geo (france, germany, europe, emea, anywhere, ...: ?get=locations),
+  #          industry (admin = DevOps & Infrastructure, engineering, technical-support,
+  #          cybersecurity, ...: ?get=industries), tag (keyword)
+  jobicy:
+    enabled: true
+    min_interval_minutes: 180
+    daily_request_cap: 24
+    requests_per_minute: {jobicy.com: 2}
+    queries:
+      - {geo: emea, industry: admin}
+      - {geo: france, industry: admin}
+      - {geo: germany, industry: admin}
+    options: {max_pages: 1}   # 3 queries x 1 page x 8 runs/day = 24 = daily_request_cap
+
+  # Himalayas: cursor-paged browse feed, 20 jobs per page, refreshed daily by
+  # Himalayas. Personal use; keep the Himalayas URL and credit Himalayas.
+  himalayas:
+    enabled: true
+    min_interval_minutes: 720
+    daily_request_cap: 20
+    requests_per_minute: {himalayas.app: 10}
+    options: {max_pages: 5}
+
+  # Arbeitnow: 300 jobs per page; paging stops at the first page whose jobs are all
+  # known already.
+  arbeitnow:
+    enabled: true
+    min_interval_minutes: 180
+    daily_request_cap: 30
+    requests_per_minute: {www.arbeitnow.com: 10}
+    options: {max_pages: 3}
+
+  # Adzuna (needs ADZUNA_APP_ID / ADZUNA_APP_KEY): one request per query and page.
+  # redirect_url is stored as the posting URL and never resolved.
+  adzuna:
+    enabled: false
+    min_interval_minutes: 180
+    daily_request_cap: 60
+    requests_per_minute: {api.adzuna.com: 25}
+    queries:
+      - {country: fr, what: python developer, max_days_old: 14}
+    options: {max_pages: 1}
+
+  # France Travail offres d'emploi v2 (needs FRANCE_TRAVAIL_CLIENT_ID / _SECRET).
+  # publieeDepuis: 1, 3, 7, 14 or 31 days.
+  france_travail:
+    enabled: false
+    min_interval_minutes: 180
+    daily_request_cap: 50
+    requests_per_minute:
+      {api.francetravail.io: 60, entreprise.francetravail.fr: 10}
+    queries:
+      - {motsCles: python, publieeDepuis: 7}
+    options: {max_pages: 1, scope: "api_offresdemploiv2 o2dsoffre"}
+
+  # Job alert e-mails (needs IMAP_HOST / IMAP_USER / IMAP_PASSWORD). Only unseen
+  # messages from allowed_senders are read; links are stored as they are and never
+  # fetched. Supported senders: linkedin.com, indeed.com, welcometothejungle.com,
+  # glassdoor.com addresses.
+  email_alerts:
+    enabled: false
+    min_interval_minutes: 60
+    daily_request_cap: 48
+    options:
+      allowed_senders: [jobalerts-noreply@linkedin.com]
+      mailbox: INBOX
+      mark_seen: true
+
+# Companies whose ATS boards are polled; replace these examples with your targets.
+#   provider     greenhouse | lever | ashby
+#   board_token  the board name in the company's careers URL:
+#                boards.greenhouse.io/<token>, jobs.lever.co/<token>,
+#                jobs.ashbyhq.com/<token>
+#   region       Lever only: eu for boards on jobs.eu.lever.co (default global)
+ats_companies:
+  - {name: GitLab, provider: greenhouse, board_token: gitlab}
+  - {name: Palantir, provider: lever, board_token: palantir}
+  - {name: Ramp, provider: ashby, board_token: ramp}

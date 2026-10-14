@@ -1,0 +1,49 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json",
+    "x-ratelimit-limit-requests": "1000",
+    "x-ratelimit-limit-tokens": "250000",
+    "x-ratelimit-remaining-requests": "999",
+    "x-ratelimit-remaining-tokens": "247412",
+    "x-ratelimit-reset-requests": "1m26.4s",
+    "x-ratelimit-reset-tokens": "620ms",
+    "x-request-id": "req_01k7fixture0groq0profile00"
+  },
+  "body": {
+    "id": "chatcmpl-0fixture-groq-profile",
+    "object": "chat.completion",
+    "created": 1791900000,
+    "model": "openai/gpt-oss-120b",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"skills\": [{\"name\": \"REST API development\", \"category\": \"technical\", \"evidence\": \"Built REST APIs with FastAPI for an inventory app\"}, {\"name\": \"Data analysis\", \"category\": \"technical\", \"evidence\": \"Analysed sales data with pandas\"}, {\"name\": \"Retail operations\", \"category\": \"domain\", \"evidence\": \"Internship at a retail chain's IT department\"}, {\"name\": \"Teamwork\", \"category\": \"soft\", \"evidence\": \"Led a 4-person student project\"}], \"tools\": [\"FastAPI\", \"Django\", \"Docker\", \"Git\", \"pandas\", \"PostgreSQL\"], \"programming_languages\": [\"Python\", \"SQL\", \"JavaScript\"], \"spoken_languages\": [{\"language\": \"Arabic\", \"level\": \"native\"}, {\"language\": \"French\", \"level\": \"C1\"}, {\"language\": \"English\", \"level\": \"B2\"}], \"education\": [{\"degree\": \"Engineering degree\", \"field_of_study\": \"Software Engineering\", \"institution\": \"INSAT\", \"end_year\": 2026}], \"certifications\": [\"AWS Certified Cloud Practitioner\"], \"years_experience\": 0.5, \"seniority\": \"junior\", \"target_titles\": [\"Junior Backend Developer\", \"Python Developer\", \"Junior Software Engineer\"], \"alternative_titles\": [\"Data Engineer Intern\", \"Full-stack Developer\", \"DevOps Intern\"], \"synonym_groups\": [[\"PostgreSQL\", \"Postgres\"], [\"Backend Developer\", \"Back-end Developer\", \"Développeur back-end\"]], \"include_keywords\": [\"python\", \"fastapi\", \"django\", \"api\", \"backend\"], \"exclude_keywords\": [\"10+ years\", \"principal\"]}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.05,
+      "prompt_tokens": 1834,
+      "prompt_time": 0.09,
+      "completion_tokens": 742,
+      "completion_time": 1.6,
+      "total_tokens": 2576,
+      "total_time": 1.69,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 311
+      }
+    },
+    "system_fingerprint": "fp_fixture",
+    "x_groq": {
+      "id": "req_01k7fixture0groq0profile00"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json",
+    "x-ratelimit-limit-requests": "1000",
+    "x-ratelimit-limit-tokens": "250000",
+    "x-ratelimit-remaining-requests": "998",
+    "x-ratelimit-remaining-tokens": "246100",
+    "x-ratelimit-reset-requests": "2m52.8s",
+    "x-ratelimit-reset-tokens": "935ms"
+  },
+  "body": {
+    "id": "chatcmpl-0fixture-groq-score",
+    "object": "chat.completion",
+    "created": 1791990000,
+    "model": "openai/gpt-oss-120b",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"relevance_score\": 82, \"decision\": \"strong\", \"employment_type\": \"full_time\", \"seniority\": \"junior\", \"remote_type\": \"hybrid\", \"matched_skills\": [\"Python\", \"Django\", \"PostgreSQL\", \"REST APIs\"], \"missing_skills\": [\"Kubernetes\"], \"required_skills\": [\"Python\", \"Django\", \"PostgreSQL\", \"REST APIs\", \"Kubernetes\"], \"deadline\": \"2026-11-15\", \"red_flags\": [], \"summary\": \"Junior backend developer building Django REST services for a logistics platform, hybrid in Paris.\", \"score_reason\": \"Strong overlap on Python, Django and PostgreSQL at the right level; Kubernetes is the only gap.\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "queue_time": 0.04,
+      "prompt_tokens": 2210,
+      "prompt_time": 0.08,
+      "completion_tokens": 388,
+      "completion_time": 0.7,
+      "total_tokens": 2598,
+      "total_time": 0.78,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 120
+      }
+    },
+    "system_fingerprint": "fp_fixture",
+    "x_groq": {
+      "id": "req_fixture_score"
+    }
+  }
+}

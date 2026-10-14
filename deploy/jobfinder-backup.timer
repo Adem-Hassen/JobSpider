@@ -1,0 +1,11 @@
+# Installed by deploy/install.sh. Starts jobfinder-backup.service once a day.
+[Unit]
+Description=Back up jobfinder data daily
+
+[Timer]
+OnCalendar=*-*-* 03:30:00 UTC
+RandomizedDelaySec=900
+Persistent=true
+
+[Install]
+WantedBy=timers.target

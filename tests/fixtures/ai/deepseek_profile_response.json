@@ -1,0 +1,38 @@
+{
+  "status": 200,
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "0fixture-deepseek-profile",
+    "object": "chat.completion",
+    "created": 1791900000,
+    "model": "deepseek-v4-pro",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"skills\": [{\"name\": \"REST API development\", \"category\": \"technical\", \"evidence\": \"Built REST APIs with FastAPI for an inventory app\"}, {\"name\": \"Data analysis\", \"category\": \"technical\", \"evidence\": \"Analysed sales data with pandas\"}, {\"name\": \"Retail operations\", \"category\": \"domain\", \"evidence\": \"Internship at a retail chain's IT department\"}, {\"name\": \"Teamwork\", \"category\": \"soft\", \"evidence\": \"Led a 4-person student project\"}], \"tools\": [\"FastAPI\", \"Django\", \"Docker\", \"Git\", \"pandas\", \"PostgreSQL\"], \"programming_languages\": [\"Python\", \"SQL\", \"JavaScript\"], \"spoken_languages\": [{\"language\": \"Arabic\", \"level\": \"native\"}, {\"language\": \"French\", \"level\": \"C1\"}, {\"language\": \"English\", \"level\": \"B2\"}], \"education\": [{\"degree\": \"Engineering degree\", \"field_of_study\": \"Software Engineering\", \"institution\": \"INSAT\", \"end_year\": 2026}], \"certifications\": [\"AWS Certified Cloud Practitioner\"], \"years_experience\": 0.5, \"seniority\": \"junior\", \"target_titles\": [\"Junior Backend Developer\", \"Python Developer\", \"Junior Software Engineer\"], \"alternative_titles\": [\"Data Engineer Intern\", \"Full-stack Developer\", \"DevOps Intern\"], \"synonym_groups\": [[\"PostgreSQL\", \"Postgres\"], [\"Backend Developer\", \"Back-end Developer\", \"Développeur back-end\"]], \"include_keywords\": [\"python\", \"fastapi\", \"django\", \"api\", \"backend\"], \"exclude_keywords\": [\"10+ years\", \"principal\"]}",
+          "reasoning_content": "The CV mentions FastAPI and Django... {\"not\": \"the answer\"}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 2950,
+      "completion_tokens": 1610,
+      "total_tokens": 4560,
+      "prompt_tokens_details": {
+        "cached_tokens": 1024
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 890
+      },
+      "prompt_cache_hit_tokens": 1024,
+      "prompt_cache_miss_tokens": 1926
+    },
+    "system_fingerprint": "fp_fixture"
+  }
+}

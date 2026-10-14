@@ -1,0 +1,25 @@
+From: LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>
+To: me@example.com
+Subject: "python developer": 2 new jobs in Tunisia
+Date: Tue, 13 Oct 2026 07:30:00 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="b1"
+
+--b1
+Content-Type: text/plain; charset=utf-8
+
+Synthetic fixture modelled on a typical LinkedIn job alert layout.
+
+--b1
+Content-Type: text/html; charset=utf-8
+
+<html><head><style>.x{color:red}</style></head><body>
+<table>
+<tr><td><a href="https://www.linkedin.com/comm/jobs/view/3999000111/?trackingId=abc%3D&amp;refId=1"><img src="logo.png" alt=""></a></td>
+<td><a href="https://www.linkedin.com/comm/jobs/view/3999000111/?trackingId=abc%3D&amp;refId=1">Junior Python Developer</a>
+<p>Logistico</p><p>Tunis, Tunisia</p><p>Actively recruiting</p></td></tr>
+<tr><td><a href="https://www.linkedin.com/comm/jobs/view/3999000222/?trackingId=def">Backend Engineer (Django)</a>
+<p>Acme SARL</p><p>Ariana, Tunisia (Hybrid)</p></td></tr>
+<tr><td><a href="https://www.linkedin.com/comm/jobs/search?keywords=python">See all jobs</a></td></tr>
+</table></body></html>
+--b1--
